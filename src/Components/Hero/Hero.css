@@ -1,0 +1,125 @@
+.hero {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  text-align: center;
+  padding: 0px 20px 40px; 
+  margin-top: 100px;
+  
+  background: linear-gradient(135deg, #ddeaf6, #e8f0fd);
+  border-radius: 12px;
+}
+
+/* Images container */
+.hero-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 100px; 
+  justify-items: center;
+  margin-bottom: 50px;
+  margin-top: 50px; 
+}
+
+.hero-img {
+  width: 350px;  
+  height: auto;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease-in-out;
+}
+
+.hero-img:hover {
+  transform: scale(1.05);
+}
+
+/* Text section */
+.hero-text .tagline {
+  font-size: 22px;
+  font-weight: 600;
+  color: #e63946;
+  margin-bottom: 12px;
+  letter-spacing: 2px;
+}
+
+.hero-text .headline {
+  font-size: 30px;
+  font-weight: bold;
+  color: #1d3557;
+  max-width: 650px;
+  line-height: 1.4;
+}
+.hero {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  text-align: center;
+  padding: 0px 20px 40px; 
+  margin-top: 100px;
+  background: linear-gradient(135deg, #ddeaf6, #e8f0fd);
+  border-radius: 12px;
+}
+
+/* Images container */
+.hero-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 100px; 
+  justify-items: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.hero-img {
+  width: 300px;  
+  height: auto;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease-in-out;
+}
+
+.hero-img:hover {
+  transform: scale(1.05);
+}
+
+/* Text section */
+.hero-text .tagline {
+  font-size: 22px;
+  font-weight: 600;
+  color: #e63946;
+  margin-bottom: 12px;
+  letter-spacing: 2px;
+}
+
+.hero-text .headline {
+  font-size: 30px;
+  font-weight: bold;
+  color: #1d3557;
+  max-width: 650px;
+  line-height: 1.4;
+}
+/* Rotating offer text */
+.rotating-text {
+  font-size: 28px;
+  font-weight: 700; 
+  color: #e63946;  
+  margin-top: 20px;
+  margin-bottom: 40px;
+  height: 40px;     
+  text-transform: uppercase; 
+  letter-spacing: 2px; 
+}
+
+.cursor {
+  display: inline-block;
+  margin-left: 4px;
+  width: 3px; 
+  background-color: #e63946;
+  animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}

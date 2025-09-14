@@ -1,0 +1,50 @@
+/* src/Pages/Login.css */
+
+.login-wrapper {
+  max-width: 400px;
+  margin: 100px auto; 
+  padding: 2rem;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.login-wrapper h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #333;
+}
+
+.login-wrapper form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-wrapper label {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.login-wrapper input {
+  padding: 0.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.login-wrapper button {
+  padding: 0.7rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.login-wrapper button:hover {
+  background-color: #0056b3;
+}
